@@ -13,7 +13,10 @@ A robust AI-assisted code editor capable of identifying and rectifying various t
 Availability of a accurately labeled dataset for training the deep neural network model.
 Proper data splitting into training, validation, and possibly testing sets for model training and evaluation.
 
-### Experimental Setupimage 
+### DATASET
+Built a dataset consisting of code sample and labelled them binary 1 for correct code and 0 for incorrect code.
+ 
+### Experimental Setup 
 #### Types of experiments done
 ##### Model Architectures
 LSTM

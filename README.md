@@ -25,7 +25,26 @@ Simple RNN
 Attention Mechanism
 
 
+### Evaluation metrics used:.
+#### Primary Metric
+F1 Score
 
+#### Additional Metrics
+Accuracy
+,Precision
+,Recall
+,Confusion Matrix
+
+ ## STEPS
  
-
+### Prepare data
+##### Convert the data samples into numerical sequences using Tokenizer
+##### Assign unique integer index to each unique word
+##### Convert text into sequence of integers
+##### Sequence are padded to have same length
+### Create model, compile, train, prediction
+##### Choosing activation function, optimizer, loss function, evaluation metrics.
+##### Splitting the data for training
+##### Predict
+ 
  
